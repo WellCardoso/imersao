@@ -6,7 +6,7 @@ const Title = styled.h1`
 
 function index() {
     return(
-        <Title>My app!</Title>
+        <Title>My app!!!!</Title>
     )
 }
 
