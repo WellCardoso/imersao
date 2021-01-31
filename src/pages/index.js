@@ -1,12 +1,12 @@
 import styled from 'styled-components';
+import Layout from '../components/Layout'
 
-const Title = styled.h1`
-    color: ${(props) => props.theme.colors.primary}
-`
 
 function index() {
     return(
-        <Title>Meu App</Title>
+        <Layout>
+            Tik Tok
+        </Layout>
     )
 }
 
