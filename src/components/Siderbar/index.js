@@ -1,6 +1,6 @@
 import {Container, MenuItem, HomeIcon,PeopleIcon, Following, FollowingHeader, InfoContainer, Links} from './style'
 
-import User from '../User'
+//import User from '../User'
 
 function Siderbar(){
     return(
@@ -17,11 +17,11 @@ function Siderbar(){
 
             <Following>
                 <FollowingHeader>Suas principais contas</FollowingHeader>
-                <User user={{
+                {/* <User user={{
                     name: 'Will Smith',
                     username: 'willsmith',
                     avatar: "https://picsum.photos/200/300?random=6"
-                }}></User>
+                }}></User> */}
             </Following>
 
             <InfoContainer>
@@ -57,3 +57,4 @@ function Siderbar(){
 }
 
 export default Siderbar;
+
